@@ -1,0 +1,96 @@
+
+Matrix Size: 2
+elapsed wall time CPU Matrix Multiplication = 0.012 ms
+elapsed wall time CPU cblas DDOT 0.005 ms
+elapsed wall time CPU cblas DAXPY 0.192 ms
+elapsed wall time GPU Matrix Multiplication 0.016 ms
+elapsed wall time GPU cublas DDOT 130.274 ms
+elapsed wall time GPU cublas DAXPY 0.794 ms
+
+Matrix Size: 4
+elapsed wall time CPU Matrix Multiplication = 0.012 ms
+elapsed wall time CPU cblas DDOT 0.005 ms
+elapsed wall time CPU cblas DAXPY 0.170 ms
+elapsed wall time GPU Matrix Multiplication 0.016 ms
+elapsed wall time GPU cublas DDOT 130.958 ms
+elapsed wall time GPU cublas DAXPY 2.547 ms
+
+Matrix Size: 8
+elapsed wall time CPU Matrix Multiplication = 0.012 ms
+elapsed wall time CPU cblas DDOT 0.005 ms
+elapsed wall time CPU cblas DAXPY 0.197 ms
+elapsed wall time GPU Matrix Multiplication 0.017 ms
+elapsed wall time GPU cublas DDOT 133.862 ms
+elapsed wall time GPU cublas DAXPY 7.598 ms
+
+Matrix Size: 16
+elapsed wall time CPU Matrix Multiplication = 0.016 ms
+elapsed wall time CPU cblas DDOT 0.011 ms
+elapsed wall time CPU cblas DAXPY 0.433 ms
+elapsed wall time GPU Matrix Multiplication 0.019 ms
+elapsed wall time GPU cublas DDOT 144.902 ms
+elapsed wall time GPU cublas DAXPY 25.496 ms
+
+Matrix Size: 32
+elapsed wall time CPU Matrix Multiplication = 0.071 ms
+elapsed wall time CPU cblas DDOT 0.054 ms
+elapsed wall time CPU cblas DAXPY 0.501 ms
+elapsed wall time GPU Matrix Multiplication 0.023 ms
+elapsed wall time GPU cublas DDOT 190.319 ms
+elapsed wall time GPU cublas DAXPY 90.488 ms
+
+Matrix Size: 64
+elapsed wall time CPU Matrix Multiplication = 0.513 ms
+elapsed wall time CPU cblas DDOT 0.347 ms
+elapsed wall time CPU cblas DAXPY 0.956 ms
+elapsed wall time GPU Matrix Multiplication 0.035 ms
+elapsed wall time GPU cublas DDOT 375.787 ms
+elapsed wall time GPU cublas DAXPY 339.626 ms
+
+Matrix Size: 128
+elapsed wall time CPU Matrix Multiplication = 4.183 ms
+elapsed wall time CPU cblas DDOT 2.514 ms
+elapsed wall time CPU cblas DAXPY 4.075 ms
+elapsed wall time GPU Matrix Multiplication 0.679 ms
+elapsed wall time GPU cublas DDOT 1136.910 ms
+elapsed wall time GPU cublas DAXPY 1321.898 ms
+
+Matrix Size: 256
+elapsed wall time CPU Matrix Multiplication = 45.593 ms
+elapsed wall time CPU cblas DDOT 19.820 ms
+elapsed wall time CPU cblas DAXPY 27.429 ms
+elapsed wall time GPU Matrix Multiplication 3.044 ms
+elapsed wall time GPU cublas DDOT 4184.107 ms
+elapsed wall time GPU cublas DAXPY 5529.495 ms
+
+Matrix Size: 512
+elapsed wall time CPU Matrix Multiplication = 459.128 ms
+elapsed wall time CPU cblas DDOT 157.854 ms
+elapsed wall time CPU cblas DAXPY 201.127 ms
+elapsed wall time GPU Matrix Multiplication 15.865 ms
+elapsed wall time GPU cublas DDOT 16932.432 ms
+elapsed wall time GPU cublas DAXPY 23027.465 ms
+
+Matrix Size: 1024
+elapsed wall time CPU Matrix Multiplication = 9392.264 ms
+elapsed wall time CPU cblas DDOT 1262.831 ms
+elapsed wall time CPU cblas DAXPY 1547.811 ms
+elapsed wall time GPU Matrix Multiplication 89.931 ms
+elapsed wall time GPU cublas DDOT 76789.270 ms
+elapsed wall time GPU cublas DAXPY 134377.760 ms
+
+Matrix Size: 2048
+elapsed wall time CPU Matrix Multiplication = 90633.822 ms
+elapsed wall time CPU cblas DDOT 10611.557 ms
+elapsed wall time CPU cblas DAXPY 13595.738 ms
+elapsed wall time GPU Matrix Multiplication 546.088 ms
+elapsed wall time GPU cublas DDOT 453511.090 ms
+elapsed wall time GPU cublas DAXPY 1022804.232 ms
+
+Matrix Size: 4096
+elapsed wall time CPU Matrix Multiplication = 1078836.366 ms
+elapsed wall time CPU cblas DDOT 83766.724 ms
+elapsed wall time CPU cblas DAXPY 110191.351 ms
+elapsed wall time GPU Matrix Multiplication 3830.665 ms
+elapsed wall time GPU cublas DDOT 4064343.247 ms
+elapsed wall time GPU cublas DAXPY 10092113.896 ms
